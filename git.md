@@ -3,7 +3,7 @@
 | Goal | Command |
 ```suggestion
 | Stash changes | `git stash push -m "msg"` |
-```
+
 
 | New branch | `git switch -c feature/name` |
 | Stage and commit | `git add -p && git commit -m "msg"` |
