@@ -1,7 +1,10 @@
 # Git cheat sheet
 
 | Goal | Command |
-|---|---|
+```suggestion
+| Stash changes | `git stash push -m "msg"` |
+```
+
 | New branch | `git switch -c feature/name` |
 | Stage and commit | `git add -p && git commit -m "msg"` |
 | Co-authored commit | add `Co-authored-by: Name <email>` as the last line of the message |
